@@ -73,7 +73,7 @@ def predict_materials():
         design_name = request.form["design_name"]
         budget = float(request.form["budget"])
     except ValueError:
-        return "Invalid input! Please enter numeric values for budget."
+        return "Invalid input! Please enter numeric values for budget ,amount."
 
     # Predict materials
     cement_pred = cement_model.predict([[budget]])[0]
