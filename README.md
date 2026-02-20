@@ -1,1 +1,1 @@
-material details add
+material details add object based detection
